@@ -1,0 +1,19 @@
+{
+  "name": "AcceptanceTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js features/test.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-rc-1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "chromedriver": "^93.0.1"
+  }
+}
